@@ -1,7 +1,7 @@
 %define		_plugin	gzip
 %define		mversion	1.1.1
 Summary:	Plugin for compressed tranfer support
-Summary(pl):	Wtyczka pozwalaj±ca kompresowaæ transmisjê
+Summary(pl.UTF-8):   Wtyczka pozwalajÄ…ca kompresowaÄ‡ transmisjÄ™
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.02
 Release:	2
@@ -22,9 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This plugin allows SquirrelMail to compress its output to the browser,
 saving precious bandwidth.
 
-%description -l pl
-Wtyczka pozwalaj±ca na kompresjê transmisji miêdzy Wiewiórcz± Poczt± i
-przegl±dark± u¿ytkownika. Oszczêdza cenn± przepustowo¶æ ³±cza.
+%description -l pl.UTF-8
+Wtyczka pozwalajÄ…ca na kompresjÄ™ transmisji miÄ™dzy WiewiÃ³rczÄ… PocztÄ… i
+przeglÄ…darkÄ… uÅ¼ytkownika. OszczÄ™dza cennÄ… przepustowoÅ›Ä‡ Å‚Ä…cza.
 
 %prep
 %setup -q -n %{_plugin}
